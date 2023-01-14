@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Couleurs</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="ecran"></div>
+          <button class="btn btn-primary col-3 m-2" id="hello">
+            Hello World
+          </button>
+          <div class="d-flex">
+            <input type="text" class="col-6" id="custom_text" />
+            <button class="btn btn-info col-3 m-2" id="custom">Custom</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-flex justify-content-between">
+            <button class="btn btn-danger col-3 m-2" id="red">Rouge</button>
+            <button class="btn btn-success col-3 m-2" id="green">Vert</button>
+            <button class="btn btn-primary col-3 m-2" id="blue">Bleu</button>
+          </div>
+          <div class="d-flex flex-column">
+            <button class="btn btn-secondary col-12 m-2" id="toggle">
+              Toggle
+            </button>
+
+            <button class="btn btn-secondary col-12 m-2" id="rainbow">
+              Rainbow
+            </button>
+
+            <input
+              type="range"
+              name=""
+              id="inpt_range"
+              class="col-12 m-2"
+              id="border"
+              value="0"
+              min="0"
+              max="20"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <ul class="list col-6 list-group">
+          <li
+            class="list-group-item"
+            data-id="1"
+            data-name="pomme"
+            data-price="2"
+            data-count="0"
+          >
+            Pomme 2€
+          </li>
+          <li
+            class="list-group-item"
+            data-id="2"
+            data-name="poire"
+            data-price="8"
+            data-count="0"
+          >
+            Poire 8€
+          </li>
+          <li
+            class="list-group-item"
+            data-id="3"
+            data-name="prune"
+            data-price="1"
+            data-count="0"
+          >
+            Prune 1€
+          </li>
+          <li
+            class="list-group-item"
+            data-id="4"
+            data-name="avocat"
+            data-price="15"
+            data-count="0"
+          >
+            Avocat 15€
+          </li>
+        </ul>
+        <div class="col-6">
+          <ul class="secondUl list-group"></ul>
+          <div class="total mt-1 list-group-item">
+            <span>Total :</span>
+            <span class="total_price">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

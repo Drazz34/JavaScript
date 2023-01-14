@@ -1,0 +1,35 @@
+.objet {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+
+.red {
+  background-color: red;
+  color: green;
+}
+
+.green {
+  background-color: green;
+  color: blue;
+}
+.blue {
+  background-color: blue;
+  color: burlywood;
+}
+.purple {
+  background-color: purple;
+  color: aquamarine;
+}
+.pink {
+  background-color: pink;
+  color: black;
+}
+.orange {
+  background-color: orange;
+  color: green;
+}

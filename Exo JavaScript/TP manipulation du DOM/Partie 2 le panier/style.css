@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+}
+
+.liste {
+    margin-right: 50px;
+}
+
+.fruit {
+    border: 1px dotted black;
+    padding: 20px;
+}
+
+.liste_fruit li {
+    cursor: pointer;
+}
+
+.panier_rempli {
+    border: 1px solid black;
+    height: 200px;
+    padding: 20px;
+}
+
+.liste_panier {
+    list-style: none;
+}

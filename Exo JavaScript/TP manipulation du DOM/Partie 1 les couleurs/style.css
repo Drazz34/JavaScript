@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.contain {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.change {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "a b c"
+    "d d d"
+    "e e e";
+    gap: 10px;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+#red {
+    grid-area: a;
+    background-color: red;
+}
+
+#green {
+    grid-area: b;
+    background-color: green;
+}
+
+#blue {
+    grid-area: c;
+    background-color: blue;
+}
+
+#toggle {
+    grid-area: d;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+#rainbow {
+    grid-area: e;
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.turquoise {
+    background-color: turquoise;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.bouton {
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.bottom {
+    margin-left: 100px;
+    height: max-content;
+}
+
+#hello {
+    padding: 15px 25px;
+    background-color: lightpink;
+}
+
+#text {
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#bouton {
+    padding: 15px;
+}
